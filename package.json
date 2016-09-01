@@ -1,0 +1,37 @@
+{
+  "name": "samandbridgette",
+  "version": "1.0.0",
+  "description": "static site",
+  "main": "site/index.js",
+  "scripts": {
+    "test": "test",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Scong/samandbridgette.git"
+  },
+  "author": "Sam Congleton",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Scong/samandbridgette/issues"
+  },
+  "homepage": "https://github.com/Scong/samandbridgette#readme",
+  "devDependencies": {
+    "babel-core": "^6.13.2",
+    "babel-loader": "^6.2.5",
+    "babel-preset-es2015": "^6.13.2",
+    "babel-preset-react": "^6.11.1",
+    "babel-preset-react-hmre": "^1.1.1",
+    "html-webpack-plugin": "^2.22.0",
+    "node-sass": "^3.8.0",
+    "sass-loader": "^4.0.0",
+    "webpack": "^1.13.2",
+    "webpack-dev-server": "^1.15.1",
+    "webpack-merge": "^0.14.0",
+    "webpack-validator": "^2.2.3"
+  },
+  "dependencies": {
+    "react": "^15.2.1"
+  }
+}
