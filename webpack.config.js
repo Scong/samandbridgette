@@ -5,11 +5,8 @@ const validate = require('webpack-validator');
 
 const PATHS = {
   app: path.join(__dirname, 'app', 'index.jsx'),
-  site: path.join(__dirname, 'site'),
-  style: path.join(__dirname, 'app', 'assets', 'main.css'),
+  site: path.join(__dirname, 'site')
 };
-
-var css = require("./app/assets/main.scss")
 
 const common = {
   entry: {

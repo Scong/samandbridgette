@@ -2,13 +2,14 @@ var React = require("react");
 var Header = require("./header");
 var Footer = require("./footer");
 var RSVP = require("./rsvp");
+var Body = require("./body");
 
 var Page = React.createClass({
   render () {
     return (
-      <div>
+      <div className="container">
         <Header />
-        <RSVP />
+        <Body />
         <Footer />
       </div>
     );
