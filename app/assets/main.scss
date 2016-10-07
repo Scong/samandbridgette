@@ -1,1 +1,58 @@
 @import 'bootstrap_custom';
+@import 'footer';
+
+html, body {
+    height: 100%;
+}
+
+.body { margin-top: 70px; }
+
+.wrapper {
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    margin: 0 auto -155px; /* the bottom margin is the negative value of the footer's height */
+}
+
+.content-container {
+  display: flex; /* or inline-flex */
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.content-item {
+  flex-basis: auto;
+  order: 1;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Palatino Linotype', "Book Antiqua", Palatino, serif;
+}
+p, div {
+  font-family: 'Palatino Linotype', "Book Antiqua", Palatino, serif;
+}
+
+.hay-picture {
+  border-radius: 50%;
+  height: 300px;
+  width: 400px;
+}
+
+.target-picture {
+  height: 250px;
+  width: 250px;
+}
+
+.cratebarrel-picture {
+  height: 250px;
+  width: 250px;
+}
+
+.welcome {
+  margin-top: 30px;
+}
+
+.footer-container {
+  padding-top: 20px;
+}
