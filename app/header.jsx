@@ -43,6 +43,7 @@ var Header = React.createClass({
                 {this.navLink("Help Us!", '/sos')}
                 <li role="separator" className="divider"></li>
                 {this.navLink("Registry", '/registry')}
+                {this.navLink("Contact", '/contact_us')}
               </ul>
             </div>
           </div>

@@ -6,3 +6,21 @@
   height: 60px;
   background-color: #f5f5f5;
 }
+
+body {
+  @media (max-width: $screen-xs-min) {
+    font-size: 12px;
+  }
+
+  @media (min-width: $screen-xs-min) and (max-width: $screen-xs-max) {
+    font-size: 13px;
+  }
+
+  @media (min-width: $screen-sm-min) and (max-width: $screen-sm-max) {
+    font-size: 14px;
+  }
+
+  @media (min-width: $screen-md-min) {
+    font-size: 15px;
+  }
+}
