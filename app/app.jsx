@@ -9,6 +9,9 @@ var App = React.createClass({
       <div>
         <Header location={this.props.location}/>
         <Body >
+          <p className="text-center muted notification">
+            Site is under construction but functional -Sam
+          </p>
           {this.props.children}
         </Body >
         <Footer />

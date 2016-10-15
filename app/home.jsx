@@ -1,6 +1,5 @@
 var React = require("react");
 var landing_picture = require("file?name=landing.jpg!./images/hay.jpg");
-debugger
 var Home = React.createClass({
   render () {
 
