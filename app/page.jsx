@@ -6,12 +6,12 @@ var Contact = require("./contact_us");
 var App = require("./app");
 var Registry = require("./registry");
 
-import { Router, Route, Link, browserHistory, IndexRoute } from 'react-router'
+import { Router, Route, Link, hashHistory, IndexRoute } from 'react-router'
 
 var Page = React.createClass({
   render () {
     return (
-      <Router history={browserHistory}>
+      <Router history={hashHistory}>
         <Route path="/" component={App}>
           <IndexRoute component={Home} />
           <Route path="home" component={Home}/>
