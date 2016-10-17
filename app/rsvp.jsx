@@ -44,7 +44,7 @@ var RSVP = React.createClass({
           </p>
 
           <p>
-            <a href="" target="_blank">Their Website</a>
+            <a href="http://sinklandfarms.com/" target="_blank">Their Website</a>
           </p>
           <p className="text-muted" style={{fontSize: "2px"}}>
             Shakes fist at embedded code.

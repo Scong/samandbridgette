@@ -27538,7 +27538,7 @@
 	          null,
 	          React.createElement(
 	            'a',
-	            { href: '', target: '_blank' },
+	            { href: 'http://sinklandfarms.com/', target: '_blank' },
 	            'Their Website'
 	          )
 	        ),
