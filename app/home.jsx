@@ -1,5 +1,6 @@
 var React = require("react");
-var landing_picture = require("file?name=landing.jpg!./images/hay.jpg");
+import landing_picture from './images/hay.jpg';
+
 var Home = React.createClass({
   render () {
 

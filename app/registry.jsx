@@ -1,6 +1,6 @@
 var React = require("react");
-var target = require("file?name=target_vector.jpg!./images/target_vector.png");
-var cratebarrel = require("file?name=cratebarrel.jpg!./images/cratebarrel.jpg");
+import target from './images/target_vector.png';
+import cratebarrel from './images/cratebarrel.jpg';
 
 var Registry = React.createClass({
   render () {
