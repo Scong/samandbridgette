@@ -29,6 +29,10 @@ const common = {
             'file?hash=sha512&digest=hex&name=[hash].[ext]',
             'image-webpack?bypassOnDebug&optimizationLevel=7&interlaced=false'
         ]
+      },
+      {
+        test: /\.html$/,
+        loader: "html"
       }
     ]
   },
@@ -41,7 +45,7 @@ const common = {
   },
   plugins: [
     new HtmlWebpackPlugin({
-      title: 'samandbridgette.com'
+      template: 'app/index.html'
     })
   ]
 };
