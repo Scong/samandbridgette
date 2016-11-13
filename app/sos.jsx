@@ -33,7 +33,8 @@ var SOS = React.createClass({
                 Roles
               </lh>
               <li>
-                Music/DJ Person!
+                <strike>Music/DJ Person!</strike>&nbsp;
+                <strong>{"Sam's Aunt Lydia is providing DJ equipment / we will have an Ipod playlist"}</strong>
               </li>
               <li>
                 Parking Lot Attendant!

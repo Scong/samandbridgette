@@ -27518,7 +27518,7 @@
 	      { className: 'rsvp' },
 	      React.createElement(
 	        'div',
-	        { className: 'information' },
+	        { className: 'information col-md-6' },
 	        React.createElement(
 	          'h3',
 	          null,
@@ -27546,6 +27546,30 @@
 	          'p',
 	          { className: 'text-muted', style: { fontSize: "2px" } },
 	          'Shakes fist at embedded code.'
+	        )
+	      ),
+	      React.createElement(
+	        'div',
+	        { className: 'col-md-6' },
+	        React.createElement(
+	          'h4',
+	          null,
+	          'Available Rooms'
+	        ),
+	        React.createElement(
+	          'p',
+	          null,
+	          '25 Rooms are blocked at the Days Inn in Christiansburg until March 11th for the 25th - 26th. There are several other hotels in the area as well.'
+	        ),
+	        React.createElement(
+	          'p',
+	          null,
+	          '(540) 382-0261 Under the name Sam Congleton or Bridgette Michelsen. ',
+	          React.createElement(
+	            'a',
+	            { href: 'https://www.wyndhamhotels.com/days-inn/christiansburg-virginia/days-inn-christiansburg/overview?CID=LC:DI:20160927:RIO:Local:SM-disatl', target: '_blank' },
+	            'Link'
+	          )
 	        )
 	      ),
 	      React.createElement('div', { id: 'RSVP' })
@@ -27705,7 +27729,17 @@
 	            React.createElement(
 	              "li",
 	              null,
-	              "Music/DJ Person!"
+	              React.createElement(
+	                "strike",
+	                null,
+	                "Music/DJ Person!"
+	              ),
+	              " ",
+	              React.createElement(
+	                "strong",
+	                null,
+	                "Sam's Aunt Lydia is providing DJ equipment / we will have an Ipod playlist"
+	              )
 	            ),
 	            React.createElement(
 	              "li",

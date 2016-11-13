@@ -33,7 +33,7 @@ var RSVP = React.createClass({
   render () {
     return (
       <div className="rsvp">
-        <div className="information">
+        <div className="information col-md-6">
           <h3>
             March 25th, 2017. ChristiansBurg, VA
           </h3>
@@ -48,6 +48,19 @@ var RSVP = React.createClass({
           </p>
           <p className="text-muted" style={{fontSize: "2px"}}>
             Shakes fist at embedded code.
+          </p>
+        </div>
+        <div className="col-md-6">
+          <h4>Available Rooms</h4>
+          <p>
+            25 Rooms are blocked at the Days Inn in Christiansburg until March 11th for the 25th - 26th. There are several other hotels in the area as well.
+          </p>
+
+          <p>
+            (540) 382-0261 Under the name Sam Congleton or Bridgette Michelsen.&nbsp;
+            <a href="https://www.wyndhamhotels.com/days-inn/christiansburg-virginia/days-inn-christiansburg/overview?CID=LC:DI:20160927:RIO:Local:SM-disatl" target="_blank">
+              Link
+            </a>
           </p>
         </div>
         <div id="RSVP"></div>
