@@ -11,6 +11,7 @@ var Home = React.createClass({
         </h3>
         <div className="content-container welcome">
           <div className="content-item location">
+            <h4>Ceremony 4PM, Reception 5:30PM, Wedding Closes ~10PM</h4>
             <h4>March 25th, 2017. ChristiansBurg, VA</h4>
             <div className="welcome-body">
               <p>

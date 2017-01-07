@@ -27615,6 +27615,11 @@
 	          React.createElement(
 	            "h4",
 	            null,
+	            "Ceremony 4PM, Reception 5:30PM, Wedding Closes ~10PM"
+	          ),
+	          React.createElement(
+	            "h4",
+	            null,
 	            "March 25th, 2017. ChristiansBurg, VA"
 	          ),
 	          React.createElement(
